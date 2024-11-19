@@ -1,6 +1,6 @@
 [package]
 name = "lavalink-rs"
-version = "0.13.0"
+version = "0.14.0"
 edition = "2021"
 authors = ["vicky5124 <vickyf5124@gmail.com>"]
 license = "MPL-2.0"
@@ -44,7 +44,7 @@ features = ["rustls-webpki-roots", "twilight", "serenity", "songbird", "macros",
 [dependencies]
 arc-swap = "1"
 serde_json = "1"
-dashmap = "5"
+dashmap = "6"
 http = "1"
 tracing = "0.1"
 futures = "0.3"
@@ -55,7 +55,7 @@ bytes = "1"
 urlencoding = "2"
 
 [dependencies.tokio-tungstenite]
-version = "0.21"
+version = "0.24"
 
 [dependencies.tokio]
 version = "1"
@@ -146,8 +146,8 @@ optional = true
 
 [dependencies.macros-dep]
 package = "lavalink_rs_macros"
-version = "0.1"
-#path = "./macros"
+#version = "0.2"
+path = "./lavalink_rs_macros"
 optional = true
 
 
